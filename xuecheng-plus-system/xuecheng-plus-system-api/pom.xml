@@ -12,6 +12,12 @@
     <description>xuecheng-plus-system-api</description>
 
     <dependencies>
+        <!--nacos的基础环境包-->
+        <dependency>
+            <groupId>com.alibaba.cloud</groupId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>com.xuecheng</groupId>
             <artifactId>xuecheng-plus-system-model</artifactId>
