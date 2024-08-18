@@ -21,8 +21,6 @@ public class SampleXxlJob {
     @XxlJob("testJob")
     public void testJob() throws Exception {
         log.info("开始执行.....");
-        System.out.println("您++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++");
-
     }
 
     /**
